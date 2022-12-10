@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-<h1 id="myhead"> Welcome to MKT <img src="templates/home.jpg" alt="logo" /> </h1>
+<h1 id="myhead"> Welcome to MKT <img src="D:\Projects\PROJECT_MKT\templates\village pic.jpg" alt="logo" /> </h1>
 
 <style>
 
 
+h2{text-align: center;
+	color: Orange;
+	padding: 20px}
 
 img{
 	
@@ -17,7 +20,7 @@ label{padding: 10px}
 #myhead{ 
 		text-align: center;
 		background-color:lightblue; 
-		margin: 40px;
+		margin: 0px;
 		padding: 50px;
 		font-size:400%}
 		
@@ -27,7 +30,8 @@ label{padding: 10px}
 		
 form{text-align: center;
 	font-size: 130%;
-	text:bold;}
+	text:bold;
+	padding: 20px}
 	
 #but{ 
 	background-color: #0066ff;
@@ -41,12 +45,17 @@ form{text-align: center;
 	align-items:center;
 	padding-left: 10px}
 	
-a{color: Green}
+table{position:absolute;
+		right:675px}
+		
+body{background-image: url('C:\Users\bhuky\Desktop\Kittu\village pic.jpg')}
 
 </style>
 </head>
 
 <body>
+
+<h2> Villagers Login Page</h2>
 
 <form>
 	<label id="user"> Username: </label>
@@ -55,9 +64,17 @@ a{color: Green}
 	<input type="password" placeholder="Enter Password" required="pass"><br><br>
 	
 	<button id="but" > Login</button>
-	<p id="p"> New User?</p>
-
-	<a href="https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_a_target" target="_blank"> Register</a>
+	
+	<table>
+	
+	<tr>
+	 <td style="padding:0 15px"><p id="p"> New User?</p> </td>
+	<td><a href="D:\Projects\PROJECT_MKT\templates\registration_page.html" target="blank">  Register</a></td>
+	
+	</tr>
+	</table>
+	
+	
 </form>
 
 
